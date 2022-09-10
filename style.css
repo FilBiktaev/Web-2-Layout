@@ -1,0 +1,108 @@
+ul, li {
+    display: block;
+}
+
+.title {
+	padding-top: 100px;  
+	padding-bottom: 70px ;
+}
+
+.logo {
+    margin-top:8px;
+    width: 200px;
+}
+
+.menu {
+    margin-top:25px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    color: #A9A9A9;
+    font-size:16px;
+    font-weight:500;
+
+}
+
+.menu__item a:hover {
+    color: #696969;
+    font-size:16px;
+    font-weight:500;
+
+}
+
+.leftBar {
+background-color: #000000;
+}
+
+.rightBar {
+background-color: #000000;
+}
+
+.offer{
+	margin-top: 117px;
+}
+
+.info_title {
+    font-size:30px;
+    margin-bottom: 10px;
+    color: black;
+    margin-top:25px;
+}
+
+.info_text {
+    font-size: 16px;
+    color: dimgrey;
+}
+
+.break_intro {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.break_title {
+    font-size:26px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.info{
+    margin-bottom: 100px;
+}
+
+.ck{
+	margin:0px 0px 0px 0px;
+    width: 100%;
+}
+
+.imgShop {
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.rotate:hover {
+  transition: all 0.8s ease;
+  transform: rotateZ(-720deg);
+}
+
+.increase:hover {
+    height: 350px;
+    transition: all 0.5s ease;
+}
+
+@keyframes offset {
+  15% {
+    transform: translateX(50px);
+  }
+}
+
+.shift:hover {
+  animation: offset 2s ease;
+  animation-iteration-count: 1;
+}
